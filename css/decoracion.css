@@ -1,0 +1,200 @@
+@font-face {
+    font-family: Holyfat;
+    src: url(/fuentes/Holyfat.ttf);
+}
+
+body{
+   
+    
+    background-image: url(/img/fondo2.jpg) ;
+    background-repeat: no-repeat;
+    
+    
+}
+
+h1{
+    font-family: Holyfat !important;
+}
+.btn-primary{
+    color: #ffffff;
+    background-color: #4CDA00;
+    border-radius: 50%;
+    width: 180px;
+    height: 70px;
+    border-color: #ffffff00;
+   
+}
+.btn-primary:hover{
+background-color: #4cda00aa;
+border-color: #4cda0061;
+}
+.dos{
+display: flex;
+justify-content: center;
+}
+
+.verde{
+    color: #4CDA00;  
+ 
+    
+
+}
+.verdes{
+    color: #4CDA00;
+    background-color: #ffffffb1;
+    border-radius: 15px;
+    text-align: center;
+}
+.verde2{
+   
+    color: #4CDA00;
+    text-align: center;
+}
+.temas{
+    background-color: #4cda0075;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.blanco{
+    color: aliceblue;
+}
+.h2{
+    color: aliceblue;
+}
+.azul{
+    color: #02C6DB;
+}
+
+.home{
+    width: 600px;
+    background-color: #ffffff;
+    border-radius: 15px;
+  
+}
+
+
+.bg-light{
+    
+    height: 40px;
+text-align: center;
+    width: 130px;
+    background-color: #ffffff00 !important;
+color: #4CDA00 !important;
+
+}
+.footer{
+    height: 200px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.429);
+}
+
+h1{
+    font-family: Holyfat;
+}
+
+.bg-light:hover{
+    background-color: #4CDA00 !important;
+    color: #ffffff !important;
+    border-radius: 5px;
+    width: 130px;
+}
+.blancos{
+    color: #ffffff;
+    text-align: center;
+}
+.ratio-16x9{
+    width: 400px;
+    
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+.carousel{
+    width: 400px;
+}
+.container-fluid{
+    background-color: #ffffff52 !important;
+    
+}
+.fondo:hover{
+opacity: 1;
+}
+
+
+.centrar figure{
+
+cursor: pointer;
+}
+
+.centrar figure img{
+    transition: all 500ms ease-out;
+}
+.centrar figure .capa{
+    width: 200px;
+    height: 12rem;
+   position: absolute;
+   margin-top: -12rem;
+   border-radius: 50%;
+    background-color: #ffffff57;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+}
+.centrar figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+
+.red1 figure img{
+    transition: all 500ms ease-out;
+}
+.red1 figure .capas{
+    width: 25px;
+    height: 25px;
+   position: absolute;
+   margin-top: -25px;
+   margin-left: 891px;
+   
+   border-radius: 50%;
+    background-color: #ffffff57;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+   
+}
+.red1 figure:hover > .capas{
+    opacity: 1;
+    visibility: visible;
+}
+
+.red2 figure img{
+    transition: all 500ms ease-out;
+}
+.red2 figure .capas2{
+    width: 25px;
+    height: 24px;
+   position: absolute;
+   margin-top: -24px;
+   background-color: #ffffff57;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+}
+.red2 figure:hover > .capas2{
+    opacity: 1;
+    visibility: visible;
+}
+.modal-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
